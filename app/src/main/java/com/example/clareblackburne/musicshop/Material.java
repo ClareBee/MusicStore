@@ -13,6 +13,6 @@ public enum Material {
         LEATHER,
         IVORY,
         PLASTIC,
-        ALDER;
+        ALDER
 }
 

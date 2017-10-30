@@ -9,5 +9,5 @@ public enum Family {
     PERCUSSION,
     BRASS,
     WOODWIND,
-    KEYBOARD;
+    KEYBOARD
 }

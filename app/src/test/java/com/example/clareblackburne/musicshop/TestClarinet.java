@@ -14,8 +14,8 @@ import static org.junit.Assert.assertEquals;
 
 public class TestClarinet {
 
-    Clarinet clarinet;
-    Store store;
+    private Clarinet clarinet;
+    private Store store;
 
     @Before
     public void before(){

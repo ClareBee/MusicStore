@@ -8,9 +8,9 @@ import com.example.clareblackburne.musicshop.Sellable;
 
 public abstract class Accessory implements Sellable {
 
-    String name;
-    double buyPrice;
-    double sellPrice;
+    protected String name;
+    protected double buyPrice;
+    protected double sellPrice;
 
 
     public Accessory(String name, double buyPrice, double sellPrice) {

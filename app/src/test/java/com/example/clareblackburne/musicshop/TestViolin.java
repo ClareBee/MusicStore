@@ -14,7 +14,7 @@ import static org.junit.Assert.assertEquals;
 
 public class TestViolin {
 
-    Violin violin;
+    private Violin violin;
 
     @Before
     public void before(){

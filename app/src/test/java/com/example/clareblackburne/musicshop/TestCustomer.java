@@ -15,10 +15,10 @@ import static org.junit.Assert.assertEquals;
 
 public class TestCustomer {
 
-    Customer customer;
-    Tuba tuba;
-    Store store;
-    Microphone microphone;
+    private Customer customer;
+    private Tuba tuba;
+    private Store store;
+    private Microphone microphone;
 
     @Before
     public void before(){

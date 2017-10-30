@@ -14,9 +14,9 @@ import static org.junit.Assert.assertEquals;
 
 public class TestXylophone {
 
-    Xylophone xylophone;
-    Store store;
-    Customer customer;
+    private Xylophone xylophone;
+    private Store store;
+    private Customer customer;
 
     @Before
     public void before(){

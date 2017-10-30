@@ -10,11 +10,11 @@ import com.example.clareblackburne.musicshop.Sellable;
 
 public abstract class Instrument implements Playable, Sellable {
 
-    String name;
-    Family family;
-    double buyPrice;
-    double sellPrice;
-    Material material;
+    protected String name;
+    protected Family family;
+    protected double buyPrice;
+    protected double sellPrice;
+    protected Material material;
 
     public Instrument(String name, Family family, double buyPrice, double sellPrice, Material material){
         this.name = name;

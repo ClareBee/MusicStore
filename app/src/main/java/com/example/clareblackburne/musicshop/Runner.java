@@ -71,7 +71,7 @@ public class Runner {
         customer = new Customer(username, cash);
         System.out.println("Well, " + customer.getName() + ", here's what we have in stock at the moment: " + store.getStockContents());
         System.out.println("So that means I currently have " + store.howManyInstruments() + " instruments you can choose from, plus a choice of " + store.howManyAccessories() + " accessories");
-        System.out.println("Would you like to try the tuba? It's made from " + tuba.getMaterial().toString() + " and it costs £" + tuba.getSellPrice());
+        System.out.println("Would you like to try the tuba? It's made from " + tuba.getMaterial().toString() + " and it costs £" + tuba.getPrice());
         Scanner scan2 = new Scanner(System.in);
         String answer = scan2.nextLine();
         if(answer.contains("y")){

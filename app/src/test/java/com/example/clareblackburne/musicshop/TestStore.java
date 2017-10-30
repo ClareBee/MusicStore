@@ -15,11 +15,11 @@ import static org.junit.Assert.assertEquals;
  */
 
 public class TestStore {
-    Store store;
-    Piano piano;
-    Clarinet clarinet;
-    InstrumentCase instrumentCase;
-    Customer customer;
+    private Store store;
+    private Piano piano;
+    private Clarinet clarinet;
+    private InstrumentCase instrumentCase;
+    private Customer customer;
 
 
     @Before
