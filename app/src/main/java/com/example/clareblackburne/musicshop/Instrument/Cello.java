@@ -8,7 +8,7 @@ import com.example.clareblackburne.musicshop.Material;
 
 public class Cello extends Instrument {
 
-    int numOfStrings;
+    private int numOfStrings;
 
     public Cello(String name, Family family, double buyPrice, double sellPrice, Material material, int numofStrings) {
         super(name, family, buyPrice, sellPrice, material);

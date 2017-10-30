@@ -9,7 +9,7 @@ import com.example.clareblackburne.musicshop.Material;
 public class Xylophone extends Instrument {
 
 
-    int numberOfBars;
+    private int numberOfBars;
 
     public Xylophone(String name, Family family, double buyPrice, double sellPrice, Material material, int numberOfBars) {
         super(name, family, buyPrice, sellPrice, material);

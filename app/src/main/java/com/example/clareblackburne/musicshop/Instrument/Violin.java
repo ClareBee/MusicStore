@@ -8,7 +8,7 @@ import com.example.clareblackburne.musicshop.Material;
 
 public class Violin extends Instrument {
 
-    int numOfStrings;
+    private int numOfStrings;
 
     public Violin(String name, Family family, double buyPrice, double sellPrice, Material material, int numofStrings) {
         super(name, family, buyPrice, sellPrice, material);

@@ -8,7 +8,7 @@ import com.example.clareblackburne.musicshop.Material;
 
 public class InstrumentCase extends Accessory {
 
-    Material material;
+    private Material material;
 
     public InstrumentCase(String name, double buyPrice, double sellPrice, Material material){
         super(name, buyPrice, sellPrice);

@@ -8,7 +8,7 @@ import com.example.clareblackburne.musicshop.Material;
 
 public class Guitar extends Instrument {
 
-    String type;
+    private String type;
 
     public Guitar(String name, Family family, double buyPrice, double sellPrice, Material material, String type) {
         super(name, family, buyPrice, sellPrice, material);

@@ -6,7 +6,7 @@ package com.example.clareblackburne.musicshop.Accessory;
 
 public class SheetMusic extends Accessory  {
 
-    int numOfPages;
+    private int numOfPages;
 
     public SheetMusic(String name, double buyPrice, double sellPrice, int numOfPages){
         super(name, buyPrice, sellPrice);

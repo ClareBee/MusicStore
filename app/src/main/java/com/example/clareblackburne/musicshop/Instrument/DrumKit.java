@@ -8,7 +8,7 @@ import com.example.clareblackburne.musicshop.Material;
 
 public class DrumKit extends Instrument {
 
-    int numberOfPieces;
+    private int numberOfPieces;
 
     public DrumKit(String name, Family family, double buyPrice, double sellPrice, Material material, int numberOfPieces) {
         super(name, family, buyPrice, sellPrice, material);

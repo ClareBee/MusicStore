@@ -8,7 +8,7 @@ import com.example.clareblackburne.musicshop.Material;
 
 public class ElectronicKeyboard extends Instrument {
 
-    int numberOfKeys;
+    private int numberOfKeys;
 
     public ElectronicKeyboard(String name, Family family, double buyPrice, double sellPrice, Material material, int numberOfKeys) {
         super(name, family, buyPrice, sellPrice, material);

@@ -6,7 +6,7 @@ package com.example.clareblackburne.musicshop.Accessory;
 
 public class Microphone extends Accessory {
 
-    String type;
+    private String type;
 
     public Microphone (String name, double buyPrice, double sellPrice, String type){
         super(name, buyPrice, sellPrice);
